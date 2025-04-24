@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#animateButton {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#animateButton:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#imageToAnimate {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    transition: transform 0.5s ease;
+}
+
+#imageToAnimate.animate {
+    transform: rotate(360deg);
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+/* CSS for smooth transitions on background color change */
+body.transition-bg {
+    transition: background-color 0.5s ease;
+}
